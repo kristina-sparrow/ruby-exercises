@@ -10,8 +10,8 @@ def substrings(string, dictionary)
     result[word] = string.scan(word).size if string.include?(word)
   end
   
-  puts result
-  return result
+  p result
+  result
 end
 
 test_dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
