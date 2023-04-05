@@ -21,7 +21,9 @@ def stock_picker(prices)
     return [best_buy_day, best_sell_day] if buy_day >= prices.length - 2 && best_profit == 0
   end
   
-  [best_buy_day, best_sell_day]
+  result = [best_buy_day, best_sell_day]
+  p result
+  result
 end
 
 stock_picker([17,3,6,9,15,8,6,1,10])
